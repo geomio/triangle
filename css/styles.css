@@ -28,6 +28,16 @@
   color: aliceblue;
 }
 
+.notri{
+  display: none;
+  max-width: 30%;
+  max-height: 30%;
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bolder;
+  color: aliceblue;
+}
+
 .aline{
   text-align: center;
 }
@@ -74,7 +84,7 @@ body{
   text-align: center;
   font-size: 2em;
   font-weight: bold;
-  color: tomato;
+  color: rgb(238, 46, 12);
   font-family: cursive;
 }
 

@@ -17,15 +17,15 @@
             <form id="triform">
               <div class="form-group">
                 <label for="sideA">Side A</label>
-                <input id="sideA" class="form-control" type="text">
+                <input min="0" id="sideA" class="form-control" type="number" required>
               </div>
               <div class="form-group">
                 <label for="sideB">Side B</label>
-                <input id="sideB" class="form-control" type="text">
+                <input min="0" id="sideB" class="form-control" type="number" required>
               </div>
               <div class="form-group">
                 <label for="sideC">Side C</label>
-                <input id="sideC" class="form-control" type="text">
+                <input min="0" id="sideC" class="form-control" type="number" required>
               </div>
               <button type="submit" class="button">Show my triangle</button>
             </form>
@@ -38,12 +38,14 @@
               <img class="isosceles" src="isotriangle.jpg" alt="isosceles triangle cartoon" class="center">
               <img class="equilateral" src="equtriangle.jpg" alt="equilateral triangle cartoon" class="center">
               <img class="scalene" src="scalene.jpg" alt="scalene triangle cartoon" class="center">
+              <img class="notri" src="https://cdn.pixabay.com/photo/2018/02/05/16/19/cat-3132568_960_720.jpg" alt="laughing cat"> 
               <h3 class="isosceles">There are two equal sides</h3>
               <h3 class="equilateral">Im all equal sided</h3>
               <h3 class="scalene">I have no matching sides.</h3>
+              <h3 class="notri">Thats not a triangle</h3>
               </p>
             </div>
-          </di>
+          </di> 
         </div>
       </div>
     </body>

@@ -50,5 +50,5 @@ _Html5, Jquery, JavaScript, bootstrap.css, and .css stylesheet, made in Visual S
 
 ### License
 
-  
+triangle artwork by geoffry millner 3/2021  
 Copyright (c) 2021 *_geoff millner_*
