@@ -8,37 +8,18 @@ $(document).ready(function() {
     $(".scalene").hide();
     $(".notri").hide();
     
-    if(sideC === 0){
+    if(sideC === 0 || sideB === 0 || sideA === 0){
       $(".notri").show();
-    }else if(sideB === 0){
-      $(".notri").show();
-    }else if(sideA === 0){
-      $(".notri").show();
-    }else if(( sideA + sideB ) <= sideC){
-      $(".notri").show();
-    }else if(( sideC + sideB ) <= sideA){
-      $(".notri").show();
-    }else if(( sideC + sideA ) <= sideB){
+    }else if(sideA + sideB <= sideC || sideC + sideB <= sideA || sideC + sideA  <= sideB){
       $(".notri").show();
     }else if (sideA === sideB && sideC === sideA){
       $(".equilateral").show();
-    }else if(sideA === sideC && sideA !== sideB){
+    }else if(sideA === sideC && sideA !== sideB || sideB === sideA && sideB !== sideC || sideB === sideC && sideB !== sideA || sideC === sideA && sideC !== sideB ||sideC === sideB && sideC !== sideA){
       $(".isosceles").show();
-    }else if(sideB === sideA && sideB !== sideC){
-      $(".isosceles").show();
-    }else if(sideB === sideC && sideB !== sideA){
-      $(".isosceles").show();
-    }else if(sideC === sideA && sideC !== sideB){
-      $(".isosceles").show();
-    }else if(sideC === sideB && sideC !== sideA){
-      $(".isosceles").show();
-    }else if(sideA !== sideB && sideA !== sideC){
-      $(".scalene").show();
-    }else if(sideB !== sideA && sideB !== sideC){
-      $(".scalene").show();
-    }else if(sideC !== sideA && sideC !== sideB){
+    }else if(sideA !== sideB && sideA !== sideC || sideB !== sideA && sideB !== sideC || sideC !== sideA && sideC !== sideB){
       $(".scalene").show();
     }
     event.preventDefault();
   });
 });
+
