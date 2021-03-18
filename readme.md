@@ -20,9 +20,16 @@
 
 1. have internet connection
 2. have browser such as google
-3. open your terminal
-4. navigate to location of choice
-5. type in terminal (git clone 
+3. open your terminal of choice
+4. navigate to location of choice (cd desktop)
+6. make directory(mkdir namehere)
+7. navigate to new directory(cd namehere)
+8. type in terminal (git clone https://github.com/geomio/triangle.git)
+
+or
+
+1. open browser of choice
+2. In the search bar enter()
 
 must have computer with internet connection.
 
@@ -30,6 +37,8 @@ must have computer with internet connection.
 
 
 mobile layout may be rather condensed.
+will only go 7(.0000001) decimal spots anything after is cut off.
+
 
 
 # Support and contact details
@@ -45,6 +54,7 @@ Check my github for info @ geomio
   
 
 _Html5, Jquery, JavaScript, bootstrap.css, and .css stylesheet, made in Visual Studio Code._
+_shape cartoons were created in adobe illustrator_
 
   
 
