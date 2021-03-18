@@ -29,7 +29,7 @@
 or
 
 1. open browser of choice
-2. In the search bar enter()
+2. In the search bar enter(https://geomio.github.io/triangle/)
 
 must have computer with internet connection.
 
